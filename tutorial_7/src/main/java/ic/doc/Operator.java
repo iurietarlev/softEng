@@ -7,13 +7,25 @@ enum Operator {
       return x + y;
     }
   },
-
   MINUS("-") {
     @Override
     public Integer apply(Integer x, Integer y) {
       return y - x;
     }
+  },
+  TIMES("*") {
+    @Override
+    public Integer apply(Integer x, Integer y) {
+      return y*x;
+    }
+  },
+  DIVIDE("/") {
+    @Override
+    public Integer apply(Integer x, Integer y) {
+      return y/x;
+    }
   };
+
 
   private String label;
 

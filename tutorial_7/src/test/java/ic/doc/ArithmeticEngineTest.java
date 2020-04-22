@@ -11,11 +11,11 @@ public class ArithmeticEngineTest {
 
   Updatable display = context.mock(Updatable.class);
 
+  ArithmeticEngine calc = new ArithmeticEngine();
+
   @Test
   public void updatesDisplayWhenANewNumberIsInput() {
-    ArithmeticEngine calc = new ArithmeticEngine();
     calc.addObserver(display);
-
     context.checking(
         new Expectations() {
           {
@@ -23,19 +23,15 @@ public class ArithmeticEngineTest {
           }
         });
 
-    calc.input(5);
+    this.calc.input(5);
   }
 
   @Test
   public void supportsAddingTwoValues() {
-    ArithmeticEngine calc = new ArithmeticEngine();
-    calc.addObserver(display);
-
+    allowDisplayWithTwoNumbers();
     context.checking(
         new Expectations() {
           {
-            allowing(display).updateWith(5);
-            allowing(display).updateWith(3);
             oneOf(display).updateWith(8);
           }
         });
@@ -47,14 +43,10 @@ public class ArithmeticEngineTest {
 
   @Test
   public void supportsSubtractingTwoValues() {
-    ArithmeticEngine calc = new ArithmeticEngine();
-    calc.addObserver(display);
-
+    allowDisplayWithTwoNumbers();
     context.checking(
         new Expectations() {
           {
-            allowing(display).updateWith(5);
-            allowing(display).updateWith(3);
             oneOf(display).updateWith(2);
           }
         });
@@ -62,5 +54,48 @@ public class ArithmeticEngineTest {
     calc.input(5);
     calc.input(3);
     calc.apply(Operator.MINUS);
+  }
+
+
+  @Test
+  public void supportsMultiplicationOfTwoNumbers() {
+    allowDisplayWithTwoNumbers();
+    context.checking(
+        new Expectations() {
+          {
+            oneOf(display).updateWith(15);
+          }
+        });
+
+    calc.input(5);
+    calc.input(3);
+    calc.apply(Operator.TIMES);
+  }
+
+  @Test
+  public void supportsDivisionOfTwoNumbers() {
+    allowDisplayWithTwoNumbers();
+    context.checking(
+        new Expectations() {
+          {
+            oneOf(display).updateWith(1);
+          }
+        });
+
+    calc.input(5);
+    calc.input(3);
+    calc.apply(Operator.DIVIDE);
+  }
+
+
+  private void allowDisplayWithTwoNumbers() {
+    calc.addObserver(display);
+    context.checking(
+        new Expectations() {
+          {
+            allowing(display).updateWith(5);
+            allowing(display).updateWith(3);
+          }
+        });
   }
 }
