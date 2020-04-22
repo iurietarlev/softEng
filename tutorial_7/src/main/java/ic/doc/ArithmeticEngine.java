@@ -10,7 +10,6 @@ public class ArithmeticEngine {
 
   public void input(int value) {
     stack.push(value);
-
     notifyObservers();
   }
 

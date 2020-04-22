@@ -5,9 +5,10 @@ import java.util.stream.IntStream;
 import javax.swing.*;
 
 public class Calculator implements Updatable {
-  JTextField output = new JTextField(10);
 
   // view
+  JTextField output = new JTextField(10);
+
   private void display() {
 
     JFrame frame = new JFrame("Calculator");
