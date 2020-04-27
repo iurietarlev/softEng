@@ -56,7 +56,7 @@ public class MonitorTest {
     }
   }
 
-  private class ControllableClock implements Clock {
+  private static class ControllableClock implements Clock {
 
     private LocalTime time;
 
