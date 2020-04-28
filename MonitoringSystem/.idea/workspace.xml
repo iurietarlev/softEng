@@ -354,7 +354,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1301484634492</updated>
-      <workItem from="1587999835674" duration="6963000" />
+      <workItem from="1587999835674" duration="7020000" />
+      <workItem from="1588007100759" duration="5000" />
     </task>
     <servers />
   </component>
@@ -390,46 +391,54 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="651" y="395" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1680.1050/-1920.0.1920.1080@0.0.1680.1050" timestamp="1588005335314" />
-    <state width="1638" height="275" key="GridCell.Tab.0.bottom" timestamp="1588006791260">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="363" key="GridCell.Tab.0.bottom" timestamp="1588007023021">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
     <state width="1638" height="275" key="GridCell.Tab.0.bottom/0.0.1680.1050/-1920.0.1920.1080@0.0.1680.1050" timestamp="1588006791259" />
-    <state width="1638" height="275" key="GridCell.Tab.0.center" timestamp="1588006791258">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="363" key="GridCell.Tab.0.bottom/0.23.1680.963/-1920.23.1920.1057@0.23.1680.963" timestamp="1588007023021" />
+    <state width="1638" height="363" key="GridCell.Tab.0.center" timestamp="1588007023020">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
     <state width="1638" height="275" key="GridCell.Tab.0.center/0.0.1680.1050/-1920.0.1920.1080@0.0.1680.1050" timestamp="1588006791258" />
-    <state width="1638" height="275" key="GridCell.Tab.0.left" timestamp="1588006791257">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="363" key="GridCell.Tab.0.center/0.23.1680.963/-1920.23.1920.1057@0.23.1680.963" timestamp="1588007023020" />
+    <state width="1638" height="363" key="GridCell.Tab.0.left" timestamp="1588007023019">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
     <state width="1638" height="275" key="GridCell.Tab.0.left/0.0.1680.1050/-1920.0.1920.1080@0.0.1680.1050" timestamp="1588006791257" />
-    <state width="1638" height="275" key="GridCell.Tab.0.right" timestamp="1588006791259">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="363" key="GridCell.Tab.0.left/0.23.1680.963/-1920.23.1920.1057@0.23.1680.963" timestamp="1588007023019" />
+    <state width="1638" height="363" key="GridCell.Tab.0.right" timestamp="1588007023020">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
     <state width="1638" height="275" key="GridCell.Tab.0.right/0.0.1680.1050/-1920.0.1920.1080@0.0.1680.1050" timestamp="1588006791259" />
-    <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1588003203191">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="363" key="GridCell.Tab.0.right/0.23.1680.963/-1920.23.1920.1057@0.23.1680.963" timestamp="1588007023020" />
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1588007023023">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050/-1920.0.1920.1080@0.0.1680.1050" timestamp="1588003203191" />
-    <state width="1638" height="363" key="GridCell.Tab.1.center" timestamp="1588003203189">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.23.1680.963/-1920.23.1920.1057@0.23.1680.963" timestamp="1588007023023" />
+    <state width="1638" height="363" key="GridCell.Tab.1.center" timestamp="1588007023022">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.1.center/0.0.1680.1050/-1920.0.1920.1080@0.0.1680.1050" timestamp="1588003203189" />
-    <state width="1638" height="363" key="GridCell.Tab.1.left" timestamp="1588003203189">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="363" key="GridCell.Tab.1.center/0.23.1680.963/-1920.23.1920.1057@0.23.1680.963" timestamp="1588007023022" />
+    <state width="1638" height="363" key="GridCell.Tab.1.left" timestamp="1588007023021">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.1.left/0.0.1680.1050/-1920.0.1920.1080@0.0.1680.1050" timestamp="1588003203189" />
-    <state width="1638" height="363" key="GridCell.Tab.1.right" timestamp="1588003203190">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="363" key="GridCell.Tab.1.left/0.23.1680.963/-1920.23.1920.1057@0.23.1680.963" timestamp="1588007023021" />
+    <state width="1638" height="363" key="GridCell.Tab.1.right" timestamp="1588007023022">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050/-1920.0.1920.1080@0.0.1680.1050" timestamp="1588003203190" />
+    <state width="1638" height="363" key="GridCell.Tab.1.right/0.23.1680.963/-1920.23.1920.1057@0.23.1680.963" timestamp="1588007023022" />
     <state x="340" y="164" key="SettingsEditor" timestamp="1588004015577">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="340" y="164" key="SettingsEditor/0.0.1680.1050/-1920.0.1920.1080@0.0.1680.1050" timestamp="1588004015577" />
-    <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1587999837146">
+    <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1588007104155">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050/-1920.0.1920.1080@0.0.1680.1050" timestamp="1587999837146" />
+    <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050/-1920.0.1920.1080@0.0.1680.1050" timestamp="1588007104155" />
     <state x="617" y="313" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588003789412">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

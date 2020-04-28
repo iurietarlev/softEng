@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class FibonacciSequenceTest {
 
-  final FibonacciSequence sequence = new FibonacciSequence();
+  final NumberSequence sequence = new FibonacciSequence();
 
   @Test
   public void definesFirstTwoTermsToBeOne() {
